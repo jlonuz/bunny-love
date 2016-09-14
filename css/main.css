@@ -1,0 +1,130 @@
+* {
+	margin:0 auto;
+	padding: 0;
+
+}
+
+
+.container {
+	width: 80%;
+	margin:0 auto;
+}
+
+.fondoheader {
+	background-color: #278BAD;
+}
+
+.bunny {
+	font-family: 'baloo paaji';
+	color:white;
+	margin-left: 128px;
+}
+
+.love {
+	color:#AD1193;
+}
+
+.menu {
+	text-decoration: none;
+	display:inline-block;
+	color:white;
+	font-family: 'Prompt';
+	font-weight: 100;
+	font-size: 13px;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+.conejofondo {
+	background:url(../img/img-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:400px;
+}
+.banner {
+	background-color: #278BAD;
+	opacity: 0.8;
+	position:relative;
+	top:53px;
+	height:290px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.title {
+	position:relative;
+	font-family: 'baloo paaji';
+	color:#AD1193;
+	font-size: 80px;
+	padding-left: 207px;
+	padding-top: 60px;
+}
+.subtitle {
+	font-family: 'Prompt';
+	text-align: center;
+	font-size: 15px;
+	color:white;
+	word-spacing: 4px;
+	padding-left: 40%;
+}
+.box {
+	text-align: center;
+}
+.foto {
+	max-width: 90%;
+	margin:0;
+}
+.caja {
+
+}
+.texto {
+	text-align: center;
+	background-color: #278BAD;
+	max-width: 90%;
+	font-family: 'Prompt';
+	color:#E7D9EA;
+	font-size: 15px;
+	height:250px;
+	margin-top:-4px;
+}
+h3 {
+	font-family: 'baloo paaji';
+	color:#AD1193;
+	padding-top:20px;
+	text-align: center;
+}
+.parrafos {
+	text-align: center;
+	padding:20px;
+}
+.colorfondo {
+	background-color: #278BAD;
+	margin-top: 20px; 
+}
+.cajabunny {
+	margin-top:15px;
+	margin-left: 15px;
+}
+.pelaje {
+	max-width: 100%;
+}
+.text {
+	background-color: white;
+	margin-top:-4px;
+	font-family: 'Prompt';
+	font-size: 15px;
+}
+.fecha {
+	padding:15px;
+}
+.descrip {
+	padding:15px;
+	font-family: 'Prompt';
+	background-color: white;
+	font-size: 15px;
+	margin-top:-4px;
+}
+.video {
+	max-width: 100%;
+}
+
+
