@@ -1,0 +1,24 @@
+@media (max-width : 479px) {
+	body.cb #ftr {
+
+	}
+
+.col-5 {
+	display:none;
+}
+.hamburguesa {
+	display:block;
+
+}
+.menu {
+	display:none;
+}
+}
+
+
+@media (min-width : 480px){
+
+.hamburguesa {
+	display:none;
+}
+}
