@@ -1,7 +1,7 @@
 * {
 	margin:0 auto;
 	padding: 0;
-
+	box-sizing: border-box;
 }
 
 
@@ -74,7 +74,7 @@
 	margin:0;
 }
 .caja {
-
+	
 }
 .texto {
 	text-align: center;
@@ -82,7 +82,7 @@
 	max-width: 90%;
 	font-family: 'Prompt';
 	color:#E7D9EA;
-	font-size: 15px;
+	font-size: 13px;
 	height:250px;
 	margin-top:-4px;
 }
@@ -102,7 +102,8 @@ h3 {
 }
 .cajabunny {
 	margin-top:15px;
-	margin-left: 15px;
+	padding-left:15px;
+	box-sizing:border-box;
 }
 .pelaje {
 	max-width: 100%;
@@ -116,15 +117,81 @@ h3 {
 .fecha {
 	padding:15px;
 }
+.video {
+	max-width: 100%;
+}
 .descrip {
 	padding:15px;
 	font-family: 'Prompt';
 	background-color: white;
 	font-size: 15px;
 	margin-top:-4px;
+	margin-bottom: 15px;
 }
-.video {
+.search {
+	background-color: #DCE5EA;
+	border-radius: 5px;
+	height:100px;
+	margin-top: 15px;
+}
+form input {
+	margin-top: 15px;
+	border-radius: 5px;
+	font-size: 25px;
+	margin-left: 36px;
+	margin-top: 30px;
+	padding-left: 15px;
+}
+.patasarriba {
 	max-width: 100%;
+	margin-top: 10px;
+}
+/*Parte dayana*/
+
+/*iconos fa */
+.fa{
+font-size: 40px;
+color: #3277A2;	
+border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 10px solid #ffffff;
+background: white;
 }
 
+/*ul de lista de iconos*/
+.ul-iconos{
+text-align: center;
+}
 
+/*lista de iconos*/
+.iconos{
+margin-right: 10px;
+text-align: center;
+display: inline-block;
+}
+/*FONDOS CONEJITOS ABAJO*/
+.footer-conejitos{
+background-image: url(../img/bunny-head.png);
+position:center;
+background-repeat: repeat-x;
+zoom:0.16;
+padding-top: 4%;
+padding-bottom: 4%;
+margin-top: 70px;
+}
+
+/*footer*/
+footer{
+	text-align: center;
+	background-color: #3277A2;
+}
+
+/*todo el footer texto y mas*/
+.all-footer{
+	border-top:#F97557 3px solid;
+	padding:25px;
+	color: white;
+	font-size: 15px;
+	font-family: 'Prompt', sans-serif ;
+}

@@ -107,6 +107,8 @@ nav ul li {
 .col-offset-7, .col-offset-8, .col-offset-9, .col-offset-10, .col-offset-11, .col-offset-12 {
     float: left;
     min-height: 1px;
+    padding:0 10px;
+    box-sizing: border-box;
  }
 
 .box {
