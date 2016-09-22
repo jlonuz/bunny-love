@@ -17,7 +17,8 @@
 .bunny {
 	font-family: 'baloo paaji';
 	color:white;
-	margin-left: 128px;
+	margin-left: 117px;
+	display:inline-block;
 }
 
 .love {
@@ -32,23 +33,36 @@
 	font-weight: 100;
 	font-size: 13px;
 	padding-left: 30px;
-	padding-top: 10px;
+	padding-top: 6px;
+}
+.burger {
+	visibility: hidden;
+	display: none;
+}
+
+.icon-bars {
+	font-size: 10px;
+	position:relative;
+	left:370px;
+	top:50px;
 }
 
 .conejofondo {
 	background:url(../img/img-1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height:400px;
+	background-position: center;
+	padding-bottom: 100px;
 }
 .banner {
 	background-color: #278BAD;
 	opacity: 0.8;
 	position:relative;
 	top:53px;
-	height:290px;
 	margin-left: 100px;
 	margin-right: 100px;
+	padding-bottom: 100px;
+
 }
 .title {
 	position:relative;
@@ -57,14 +71,16 @@
 	font-size: 80px;
 	padding-left: 207px;
 	padding-top: 60px;
+	padding-bottom: 30px;
 }
 .subtitle {
 	font-family: 'Prompt';
 	text-align: center;
 	font-size: 15px;
 	color:white;
-	word-spacing: 4px;
-	padding-left: 40%;
+	word-spacing: 20px;
+	padding-left: 36%;
+	margin-bottom: 50px;
 }
 .box {
 	text-align: center;
